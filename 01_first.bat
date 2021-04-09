@@ -1,0 +1,4 @@
+dir
+pause
+ver
+cls

@@ -1,0 +1,33 @@
+pause -- until action
+help -- comon comands
+help @comand -- info for comands
+@comand /? -- info for comands
+dir -- directory show
+dir @location -- directory of location
+ver -- verison
+set -- all viraboles
+set @var=@varContaint -- sets varibles
+%@var% -- show var
+echo @* -- print containt
+echo off/on -- display 
+@ @comad -- don't show in the bash the comand set
+:@laboleName -- create a labole
+goto -- goes to labole
+goto :eof -- end of file/ end of fuction
+call -- call a fuction
+%~ -- arguments
+setlocal...endlocal -- scope
+type nul > @fileName.@extesion  --new file 0bit
+echo.> @fileName.@extesion -- new file empty line
+subl @fileName.@extesion -- if subl or code for creating or editing a file
+
+rem or :: -- coments
+
+
+-------------oprerators----------
+EQU -- equal
+NEQ -- not equal
+LSS -- less than
+LEQ -- less than or equal
+GTR -- greater than
+GEQ -- greater than or equal
